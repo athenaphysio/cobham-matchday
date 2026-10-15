@@ -1,0 +1,672 @@
+{
+ "version": 1,
+ "updated": "2026-10-15",
+ "squad": {
+  "p-a-blackwood": {
+   "added": "2026-10-15",
+   "name": "A.BLACKWOOD",
+   "photo": "",
+   "role": "player"
+  },
+  "p-a-murphy": {
+   "added": "2026-10-15",
+   "name": "A.MURPHY",
+   "photo": "",
+   "role": "player"
+  },
+  "p-a-turpin": {
+   "added": "2026-10-15",
+   "name": "A.TURPIN",
+   "photo": "",
+   "role": "player"
+  },
+  "p-b-cox": {
+   "added": "2026-10-15",
+   "name": "B.COX",
+   "photo": "",
+   "role": "player"
+  },
+  "p-b-harker": {
+   "added": "2026-10-15",
+   "name": "B.HARKER",
+   "photo": "",
+   "role": "player"
+  },
+  "p-b-harper": {
+   "added": "2026-10-15",
+   "name": "B.HARPER",
+   "photo": "",
+   "role": "player"
+  },
+  "p-b-keller": {
+   "added": "2026-10-15",
+   "name": "B.KELLER",
+   "photo": "",
+   "role": "player"
+  },
+  "p-c-broom": {
+   "added": "2026-10-15",
+   "name": "C.BROOM",
+   "photo": "",
+   "role": "player"
+  },
+  "p-c-dellapina": {
+   "added": "2026-10-15",
+   "name": "C.DELLAPINA",
+   "photo": "",
+   "role": "player"
+  },
+  "p-c-disley-may": {
+   "added": "2026-10-15",
+   "name": "C.DISLEY-MAY",
+   "photo": "",
+   "role": "player"
+  },
+  "p-c-harty": {
+   "added": "2026-10-15",
+   "name": "C.HARTY",
+   "photo": "",
+   "role": "player"
+  },
+  "p-c-lee": {
+   "added": "2026-10-15",
+   "name": "C.LEE",
+   "photo": "",
+   "role": "player"
+  },
+  "p-c-lippiatt": {
+   "added": "2026-10-15",
+   "name": "C.LIPPIATT",
+   "photo": "",
+   "role": "player"
+  },
+  "p-c-redknapp": {
+   "added": "2026-10-15",
+   "name": "C.REDKNAPP",
+   "photo": "",
+   "role": "player"
+  },
+  "p-d-walsh": {
+   "added": "2026-10-15",
+   "name": "D.WALSH",
+   "photo": "",
+   "role": "player"
+  },
+  "p-f-savill": {
+   "added": "2026-10-15",
+   "name": "F.SAVILL",
+   "photo": "",
+   "role": "player"
+  },
+  "p-g-clarke": {
+   "added": "2026-10-15",
+   "name": "G.CLARKE",
+   "photo": "",
+   "role": "player"
+  },
+  "p-g-moule": {
+   "added": "2026-10-15",
+   "name": "G.MOULE",
+   "photo": "",
+   "role": "player"
+  },
+  "p-g-o-connor": {
+   "added": "2026-10-15",
+   "name": "G.O'CONNOR",
+   "photo": "",
+   "role": "player"
+  },
+  "p-g-spires": {
+   "added": "2026-10-15",
+   "name": "G.SPIRES",
+   "photo": "",
+   "role": "player"
+  },
+  "p-h-farmer": {
+   "added": "2026-10-15",
+   "name": "H.FARMER",
+   "photo": "",
+   "role": "player"
+  },
+  "p-h-lunn": {
+   "added": "2026-10-15",
+   "name": "H.LUNN",
+   "photo": "",
+   "role": "player"
+  },
+  "p-h-mason": {
+   "added": "2026-10-15",
+   "name": "H.MASON",
+   "photo": "",
+   "role": "player"
+  },
+  "p-h-simpson": {
+   "added": "2026-10-15",
+   "name": "H.SIMPSON",
+   "photo": "",
+   "role": "player"
+  },
+  "p-j-bond": {
+   "added": "2026-10-15",
+   "name": "J.BOND",
+   "photo": "",
+   "role": "player"
+  },
+  "p-j-mcquade": {
+   "added": "2026-10-15",
+   "name": "J.MCQUADE",
+   "photo": "",
+   "role": "player"
+  },
+  "p-j-patient": {
+   "added": "2026-10-15",
+   "name": "J.PATIENT",
+   "photo": "",
+   "role": "player"
+  },
+  "p-k-sherrington": {
+   "added": "2026-10-15",
+   "name": "K.SHERRINGTON",
+   "photo": "",
+   "role": "player"
+  },
+  "p-l-incledon": {
+   "added": "2026-10-15",
+   "name": "L.INCLEDON",
+   "photo": "",
+   "role": "player"
+  },
+  "p-l-joyce": {
+   "added": "2026-10-15",
+   "name": "L.JOYCE",
+   "photo": "",
+   "role": "player"
+  },
+  "p-l-porter": {
+   "added": "2026-10-15",
+   "name": "L.PORTER",
+   "photo": "",
+   "role": "player"
+  },
+  "p-l-westgarth-taylor": {
+   "added": "2026-10-15",
+   "name": "L.WESTGARTH-TAYLOR",
+   "photo": "",
+   "role": "player"
+  },
+  "p-m-hawkes": {
+   "added": "2026-10-15",
+   "name": "M.HAWKES",
+   "photo": "",
+   "role": "player"
+  },
+  "p-m-lovell": {
+   "added": "2026-10-15",
+   "name": "M.LOVELL",
+   "photo": "",
+   "role": "player"
+  },
+  "p-n-draper": {
+   "added": "2026-10-15",
+   "name": "N.DRAPER",
+   "photo": "",
+   "role": "player"
+  },
+  "p-n-joyce": {
+   "added": "2026-10-15",
+   "name": "N.JOYCE",
+   "photo": "",
+   "role": "player"
+  },
+  "p-o-fielding": {
+   "added": "2026-10-15",
+   "name": "O.FIELDING",
+   "photo": "",
+   "role": "player"
+  },
+  "p-o-fox": {
+   "added": "2026-10-15",
+   "name": "O.FOX",
+   "photo": "",
+   "role": "player"
+  },
+  "p-o-horton": {
+   "added": "2026-10-15",
+   "name": "O.HORTON",
+   "photo": "",
+   "role": "player"
+  },
+  "p-r-aujla": {
+   "added": "2026-10-15",
+   "name": "R.AUJLA",
+   "photo": "",
+   "role": "player"
+  },
+  "p-r-phillip": {
+   "added": "2026-10-15",
+   "name": "R.PHILLIP",
+   "photo": "",
+   "role": "player"
+  },
+  "p-r-saunders": {
+   "added": "2026-10-15",
+   "name": "R.SAUNDERS",
+   "photo": "",
+   "role": "player"
+  },
+  "p-s-reynolds": {
+   "added": "2026-10-15",
+   "name": "S.REYNOLDS",
+   "photo": "",
+   "role": "player"
+  },
+  "p-t-cowan": {
+   "added": "2026-10-15",
+   "name": "T.COWAN",
+   "photo": "",
+   "role": "player"
+  },
+  "p-t-davison": {
+   "added": "2026-10-15",
+   "name": "T.DAVISON",
+   "photo": "",
+   "role": "player"
+  },
+  "p-t-incledon": {
+   "added": "2026-10-15",
+   "name": "T.INCLEDON",
+   "photo": "",
+   "role": "player"
+  },
+  "p-t-rice-burnett": {
+   "added": "2026-10-15",
+   "name": "T.RICE-BURNETT",
+   "photo": "",
+   "role": "player"
+  },
+  "p-t-schofield": {
+   "added": "2026-10-15",
+   "name": "T.SCHOFIELD",
+   "photo": "",
+   "role": "player"
+  },
+  "p-w-o-leary": {
+   "added": "2026-10-15",
+   "name": "W.O'LEARY",
+   "photo": "",
+   "role": "player"
+  },
+  "p-w-saywell": {
+   "added": "2026-10-15",
+   "name": "W.SAYWELL",
+   "photo": "",
+   "role": "player"
+  },
+  "p-w-stephen": {
+   "added": "2026-10-15",
+   "name": "W.STEPHEN",
+   "photo": "",
+   "role": "player"
+  },
+  "p-y-loizias": {
+   "added": "2026-10-15",
+   "name": "Y.LOIZIAS",
+   "photo": "",
+   "role": "player"
+  },
+  "p-z-hellel": {
+   "added": "2026-10-15",
+   "name": "Z.HELLEL",
+   "photo": "",
+   "role": "player"
+  },
+  "p-z-o-connor": {
+   "added": "2026-10-15",
+   "name": "Z.O'CONNOR",
+   "photo": "",
+   "role": "player"
+  }
+ },
+ "fixtures": {
+  "r01": {
+   "competition": "Regional 2 South East",
+   "date": "2026-10-10",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Battersea Ironsides",
+   "round": "1",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r02": {
+   "competition": "Regional 2 South East",
+   "date": "2026-11-28",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Sutton & Epsom",
+   "round": "2",
+   "venue": "Rugby Lane, Cheam"
+  },
+  "r03": {
+   "competition": "Regional 2 South East",
+   "date": "2026-09-26",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Gravesend",
+   "round": "3",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r04": {
+   "competition": "Regional 2 South East",
+   "date": "2026-10-03",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Horsham",
+   "round": "4",
+   "venue": "Coolhurst Ground, Horsham"
+  },
+  "r05": {
+   "competition": "Regional 2 South East",
+   "date": "2026-10-17",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Old Elthamians",
+   "round": "5",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r06": {
+   "competition": "Regional 2 South East",
+   "date": "2026-10-24",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Beckenham",
+   "round": "6",
+   "venue": "Balmoral Avenue, Beckenham"
+  },
+  "r07": {
+   "competition": "Regional 2 South East",
+   "date": "2026-10-31",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Dartfordians",
+   "round": "7",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r08": {
+   "competition": "Regional 2 South East",
+   "date": "2026-11-14",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Brighton",
+   "round": "8",
+   "venue": "Waterhall Playing Fields, Brighton"
+  },
+  "r09": {
+   "competition": "Regional 2 South East",
+   "date": "2026-11-21",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Medway",
+   "round": "9",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r10": {
+   "competition": "Regional 2 South East",
+   "date": "2026-12-05",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Bromley",
+   "round": "10",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r11": {
+   "competition": "Regional 2 South East",
+   "date": "2026-12-12",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Hammersmith & Fulham",
+   "round": "11",
+   "venue": "Hurlingham Park, Fulham"
+  },
+  "r12": {
+   "competition": "Regional 2 South East",
+   "date": "2026-12-19",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Sutton & Epsom",
+   "round": "12",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r13": {
+   "competition": "Regional 2 South East",
+   "date": "2027-01-09",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Gravesend",
+   "round": "13",
+   "venue": "Rectory Field, Gravesend"
+  },
+  "r14": {
+   "competition": "Regional 2 South East",
+   "date": "2027-01-16",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Horsham",
+   "round": "14",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r15": {
+   "competition": "Regional 2 South East",
+   "date": "2027-01-30",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Old Elthamians",
+   "round": "15",
+   "venue": "Hospital Ground, Chislehurst"
+  },
+  "r16": {
+   "competition": "Regional 2 South East",
+   "date": "2027-02-06",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Beckenham",
+   "round": "16",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r17": {
+   "competition": "Regional 2 South East",
+   "date": "2027-02-13",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Dartfordians",
+   "round": "17",
+   "venue": "Bourne Road, Bexley"
+  },
+  "r18": {
+   "competition": "Regional 2 South East",
+   "date": "2027-02-27",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Brighton",
+   "round": "18",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r19": {
+   "competition": "Regional 2 South East",
+   "date": "2027-03-06",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Medway",
+   "round": "19",
+   "venue": "Priestfields, Rochester"
+  },
+  "r20": {
+   "competition": "Regional 2 South East",
+   "date": "2027-03-20",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Bromley",
+   "round": "20",
+   "venue": "Barnet Wood Road, Hayes"
+  },
+  "r21": {
+   "competition": "Regional 2 South East",
+   "date": "2027-04-03",
+   "home": true,
+   "ko": "15:00",
+   "opponent": "Hammersmith & Fulham",
+   "round": "21",
+   "venue": "Memorial Ground, Fairmile Lane, Cobham"
+  },
+  "r22": {
+   "competition": "Regional 2 South East",
+   "date": "2027-04-10",
+   "home": false,
+   "ko": "15:00",
+   "opponent": "Battersea Ironsides",
+   "round": "22",
+   "venue": "Burntwood Lane, Earlsfield"
+  }
+ },
+ "clubs": {
+  "bromley": {
+   "name": "Bromley",
+   "logo": "img/logos/bromley.png"
+  },
+  "horsham": {
+   "name": "Horsham",
+   "logo": "img/logos/horsham.png"
+  },
+  "medway": {
+   "name": "Medway",
+   "logo": "img/logos/medway.png"
+  },
+  "gravesend": {
+   "name": "Gravesend",
+   "logo": "img/logos/gravesend.png"
+  },
+  "old-elthamians": {
+   "name": "Old Elthamians",
+   "logo": "img/logos/old-elthamians.png"
+  },
+  "brighton": {
+   "name": "Brighton",
+   "logo": "img/logos/brighton.png"
+  },
+  "sutton-epsom": {
+   "name": "Sutton & Epsom",
+   "logo": "img/logos/sutton-epsom.png"
+  },
+  "hammersmith-fulham": {
+   "name": "Hammersmith & Fulham",
+   "logo": "img/logos/hammersmith-fulham.png"
+  },
+  "beckenham": {
+   "name": "Beckenham",
+   "logo": "img/logos/beckenham.png"
+  },
+  "battersea-ironsides": {
+   "name": "Battersea Ironsides",
+   "logo": "img/logos/battersea-ironsides.png"
+  },
+  "dartfordians": {
+   "name": "Dartfordians",
+   "logo": "img/logos/dartfordians.png"
+  }
+ },
+ "inbox": {
+  "photo-01": {
+   "photo": "img/unnamed/photo-01.png",
+   "n": 1
+  },
+  "photo-02": {
+   "photo": "img/unnamed/photo-02.png",
+   "n": 2
+  },
+  "photo-03": {
+   "photo": "img/unnamed/photo-03.png",
+   "n": 3
+  },
+  "photo-04": {
+   "photo": "img/unnamed/photo-04.png",
+   "n": 4
+  },
+  "photo-05": {
+   "photo": "img/unnamed/photo-05.png",
+   "n": 5
+  },
+  "photo-06": {
+   "photo": "img/unnamed/photo-06.png",
+   "n": 6
+  },
+  "photo-07": {
+   "photo": "img/unnamed/photo-07.png",
+   "n": 7
+  },
+  "photo-08": {
+   "photo": "img/unnamed/photo-08.png",
+   "n": 8
+  },
+  "photo-09": {
+   "photo": "img/unnamed/photo-09.png",
+   "n": 9
+  },
+  "photo-10": {
+   "photo": "img/unnamed/photo-10.png",
+   "n": 10
+  },
+  "photo-11": {
+   "photo": "img/unnamed/photo-11.png",
+   "n": 11
+  },
+  "photo-12": {
+   "photo": "img/unnamed/photo-12.png",
+   "n": 12
+  },
+  "photo-13": {
+   "photo": "img/unnamed/photo-13.png",
+   "n": 13
+  },
+  "photo-14": {
+   "photo": "img/unnamed/photo-14.png",
+   "n": 14
+  },
+  "photo-15": {
+   "photo": "img/unnamed/photo-15.png",
+   "n": 15
+  },
+  "photo-16": {
+   "photo": "img/unnamed/photo-16.png",
+   "n": 16
+  },
+  "photo-17": {
+   "photo": "img/unnamed/photo-17.png",
+   "n": 17
+  },
+  "photo-18": {
+   "photo": "img/unnamed/photo-18.png",
+   "n": 18
+  },
+  "photo-19": {
+   "photo": "img/unnamed/photo-19.png",
+   "n": 19
+  },
+  "photo-20": {
+   "photo": "img/unnamed/photo-20.png",
+   "n": 20
+  }
+ },
+ "settings": {
+  "main": {
+   "badge": "img/cobham-badge.png",
+   "backgrounds": {
+    "details": "img/bg/bg-1.jpg",
+    "forwards": "img/bg/bg-1.jpg",
+    "backs": "img/bg/bg-2.jpg",
+    "subs": "img/bg/bg-3.jpg"
+   },
+   "bgHasTitles": false,
+   "subsCount": 3
+  }
+ },
+ "teamsheets": {}
+}
