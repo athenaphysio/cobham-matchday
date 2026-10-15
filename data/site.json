@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "updated": "2026-10-15",
  "squad": {
   "p-a-blackwood": {
@@ -653,6 +653,26 @@
   "photo-20": {
    "photo": "img/unnamed/photo-20.png",
    "n": 20
+  },
+  "photo-21": {
+   "photo": "img/unnamed/photo-21.png",
+   "n": 21,
+   "from": "IMG_3065"
+  },
+  "photo-22": {
+   "photo": "img/unnamed/photo-22.png",
+   "n": 22,
+   "from": "IMG_3164"
+  },
+  "photo-23": {
+   "photo": "img/unnamed/photo-23.png",
+   "n": 23,
+   "from": "IMG_3195"
+  },
+  "photo-24": {
+   "photo": "img/unnamed/photo-24.png",
+   "n": 24,
+   "from": "IMG_3190"
   }
  },
  "settings": {
