@@ -34,5 +34,5 @@ HEIC included), check the result on a dark background, then either save as
 with an `inbox` entry if the name is not known. Green screen gives the cleanest edges.
 
 ## Status at 31 Oct 2026
-- 54 names in the squad. 24 cut-outs (photo-01 to photo-24) waiting to be named.
+- 54 names in the squad. 29 cut-outs (photo-01 to photo-29) waiting to be named.
 - All 11 opposition badges done. Fixtures from the August league list, 3pm kick-offs.

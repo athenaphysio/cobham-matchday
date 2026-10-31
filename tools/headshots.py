@@ -7,6 +7,8 @@ Removes the backdrop (white sheet or green screen), strips green spill,
 cleans the pale fringe, and scales so heads match the existing squad
 (head width about 31% of image width, image about 1.28:1).
 Output: one transparent PNG per input, 1000px wide, same base name.
+Add --wall before the photos to strip white wall showing through messy hair
+(only touches bluish white pixels in the top 30% near the edge, so skin is safe).
 """
 import sys, os, numpy as np
 from PIL import Image, ImageOps
@@ -54,21 +56,41 @@ def process(path, session):
     A = np.array(out.getchannel("A"))
     top = max(0, np.where(A.max(1) > 20)[0][0] - int(out.height*0.03))
     W = int(head_width(A)/HEAD_RATIO); H = int(W/ASPECT)
-    crop = out.crop((0, top, out.width, min(out.height, top+H)))
-    canvas = Image.new("RGBA", (max(W, crop.width), H), (0, 0, 0, 0))
-    x0 = (canvas.width-crop.width)//2; canvas.alpha_composite(crop, (x0, 0))
-    if x0 > 0:  # soften the cut shoulder edges when padding sideways
+    ys = np.where(A.max(1) > 128)[0]; yh = ys[0] + int((ys[-1]-ys[0])*0.22)
+    xs = np.where(A[yh] > 128)[0]; cx = (xs[0]+xs[-1])//2
+    x1 = max(0, cx-W//2); x2 = min(out.width, cx+W//2)
+    crop = out.crop((x1, top, x2, min(out.height, top+H)))
+    canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    x0 = x1-(cx-W//2); canvas.alpha_composite(crop, (x0, 0))
+    pad_l, pad_r = x0 > 0, x0+crop.width < W
+    if pad_l or pad_r:  # soften shoulders that end at the photo edge
         ca = np.array(canvas).astype(float); fw = int(crop.width*0.10); r = np.linspace(0, 1, fw)
-        ca[:, x0:x0+fw, 3] *= r[None, :]; ca[:, x0+crop.width-fw:x0+crop.width, 3] *= r[::-1][None, :]
+        if pad_l: ca[:, x0:x0+fw, 3] *= r[None, :]
+        if pad_r: ca[:, x0+crop.width-fw:x0+crop.width, 3] *= r[::-1][None, :]
         canvas = Image.fromarray(ca.clip(0, 255).astype("uint8"), "RGBA")
     s = min(1, 1000/canvas.width)
     return canvas.resize((int(canvas.width*s), int(canvas.height*s)), Image.LANCZOS)
 
+def clean_wall(img):
+    from scipy.ndimage import distance_transform_edt, binary_opening
+    a = np.array(img).astype(float); r, g, b, al = a[..., 0], a[..., 1], a[..., 2], a[..., 3]
+    H = a.shape[0]; lum = 0.3*r+0.59*g+0.11*b
+    dist = distance_transform_edt(al > 40)
+    hair = np.zeros(al.shape, bool); hair[:int(H*0.30)] = True
+    wall = hair & (dist < 60) & (b >= r-6) & (lum > 95)
+    al2 = np.where(wall, al*np.clip((150-lum)/55, 0, 1), al)
+    keep = binary_opening(al2 > 70, iterations=2) | (al2 > 220)
+    a[..., 3] = np.where(hair & ~keep, 0, al2)
+    return Image.fromarray(a.clip(0, 255).astype("uint8"), "RGBA")
+
 if __name__ == "__main__":
-    out_dir, files = sys.argv[1], sys.argv[2:]
+    args = sys.argv[1:]; wall = "--wall" in args; args = [x for x in args if x != "--wall"]
+    out_dir, files = args[0], args[1:]
     os.makedirs(out_dir, exist_ok=True)
     sess = new_session("u2net_human_seg")
     for f in files:
         name = os.path.splitext(os.path.basename(f))[0] + ".png"
-        process(f, sess).save(os.path.join(out_dir, name), optimize=True)
+        img = process(f, sess)
+        if wall: img = clean_wall(img)
+        img.save(os.path.join(out_dir, name), optimize=True)
         print("done", name)
